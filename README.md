@@ -35,14 +35,13 @@ blockchains, and will gradually release the source codes for each blockchain.
 | Stargaze | ✅                 | ✅                    | ✅                   |
 | Terra | ✅                 | ✅                    | ✅                   |
 
-*BTC: Supports Supports BRC20-related functions, including inscription creation, BRC20 buying and selling.
+*BTC: Supports Supports BRC20-related functions, including inscription creation, selling.
 
 ## Main modules
 
 - coins: Implements transaction creation and signature in each coin type.
 - crypto: Handles general security and signature algorithms.
-- util: Provides various utility class methods.
-
+- util: Provides various utility class methods
 ## Example
 
 For specific usage examples of each coin type, please refer to the corresponding test files. Remember to replace the
